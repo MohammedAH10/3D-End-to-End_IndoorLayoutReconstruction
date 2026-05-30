@@ -17,7 +17,7 @@ class TimeWatch:
         if self.logger:
             self.logger.info(output)
         else:
-            print(output)
+            print(f"Output {output}")
 
 
 if __name__ == '__main__':
